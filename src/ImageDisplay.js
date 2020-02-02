@@ -5,7 +5,7 @@ class ImageDisplay extends React.Component {
   renderImage(imageUrl) {
     return(
       <div className={sty.ImageDis}>
-        <img className={sty.img} src={imageUrl} />
+        <img className={sty.imgMain} src={imageUrl} />
       </div>
     );
   }
